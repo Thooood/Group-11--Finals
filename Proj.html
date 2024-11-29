@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+
+        <div class="welcome-section">
+            <img src="user.png" alt="User Icon" class="user-icon" style="height: 100px; width: 100px;">
+            <h2 class="welcome-text">Welcome</h2>
+        </div>
+    
+        <div class="form-section">
+            <input type="text" id="username" placeholder="Username" required autocomplete="off" list="username-history" oninput="saveUsernameHistory()">
+            <datalist id="username-history"></datalist>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Password" required autocomplete="current-password">
+                <span class="lock-icon" onclick="togglePassword()">🔒</span>
+            </div>
+            <button href="https://www.flaticon.com/free-icons/login ">Login</button>
+            <a href="https://drive.google.com/drive/folders/17X_8zDpzUaM3bIn8z5r90zWd_sVr7UNe?fbclid=IwY2xjawG0n7ZleHRuA2FlbQIxMAABHZ8iVFFvmfrkFO3VAW0--4YU1113O_Q3wgFoIHEMLOEgktvuNoSGPVA29g_aem_wcC_3SlAlcDoik3vbemZsQ"><u>Forgot password?</u></a>
+        </div>
+    </div>
+</body>
+</html>

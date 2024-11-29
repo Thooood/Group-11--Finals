@@ -1,0 +1,89 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 3%;
+    background-color: #f5efef;
+}
+.login-container {
+    background-color: #f5efef;
+    padding: 30px;
+    border-radius: -15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.welcome-section {
+    text-align: center;
+    margin-right: 10px;
+    width: 30%;
+}
+.user-icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: -10px;
+    margin-bottom: 20px;
+}
+.welcome-text {
+    font-size: 25px;
+    color: #0e0d0d;
+    margin: 0;
+}
+.form-section {
+    width: 60%;
+}
+.form-section input[type="text"],
+.form-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-section button {
+    width: 107.5%;
+    padding: 10px;
+    background-color: #1738de; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.form-section button:hover {
+    background-color: #1738de; 
+    transform: scale(1.05); 
+}
+.form-section button:active {
+    transform: scale(1);
+}
+.form-section a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1738de;
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-section a:hover {
+    text-decoration: underline;
+}
+.lock-icon {
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+}
+.password-container {
+    position: relative;
+}
+
+
+  
